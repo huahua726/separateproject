@@ -9,3 +9,7 @@ class Book(models.Model):
 
     def __str__(self):
         return self.book_name
+
+    class Meta:
+        verbose_name = '书籍'
+        verbose_name_plural = '书籍'
